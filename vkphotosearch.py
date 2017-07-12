@@ -93,7 +93,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-lat', type=float, help='Latitude (Example: 55.7538528)')
 	parser.add_argument('-long', type=float, help='Longitude (Example: 37.6196378)')
-	parser.add_argument('-radius', type=int, default=50, help='Radius (Default: 50m)')
+	parser.add_argument('-radius', type=int, default=50, help='Radius (10, 100, 800, 6000, 50000) (Default: 50m)')
 	parser.add_argument('-fromdate', default=None, help='Search photos from date (Example: 05-06-2017)')
 	parser.add_argument('-todate', default=None, help='Search photos to date (Example: 05-06-2017)')
 	parser.add_argument('-badusers', action='store_true', default=False, help='Include deleted users')
